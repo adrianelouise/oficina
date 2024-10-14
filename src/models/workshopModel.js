@@ -10,7 +10,7 @@ const workshopSchema = new Schema({
         required: true
     },
 specialties: {
-        type: String,
+        type: [ String ],
         required: true
     },
     
